@@ -1,4 +1,4 @@
-Description of files in UCI HAR Dataset
+#Description of files in UCI HAR Dataset
 
 README.txt: description of the experiments used in creating the dataset and attributes of the dataset
 
@@ -64,7 +64,7 @@ X_test.txt and X_train.txt:
 Inertial Signals files:
 	raw data used in calculation of the X_test and X_train 	sets; not used in tidy dataset creation
 
-Methods and data structures
+#Methods and data structures
 
 Initial datasets were formed by combining the train and test datasets. 
 A subset 79 features representing mean and standard deviation properties was selected from the complete set of 561 features. All features including the term "mean" in their feature name were selected. These features formed columns of the dataset to be processed.
